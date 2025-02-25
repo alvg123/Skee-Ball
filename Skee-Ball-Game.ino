@@ -9,7 +9,6 @@ int sensorTrigPin1 = 7;
 int sensorTrigPin2 = 10;
 int sensorTrigPin3 = 13;
 int sensorTrigPin4 = 16;
-//TODO: Maybe we should renames theses based on what pin they are??
 
 //The button pin
 int buttonTrigPin = 3;
