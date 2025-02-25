@@ -100,13 +100,13 @@ void loop() {
   //Updates the score based on the status of the sensor(s)
   if (sensor0Status == 0) {
     updateScore(100);
-  } else if (sensor1Status == 0) {
+  } else if (sensor1Status == 1) {
     updateScore(200);
-  } else if (sensor2Status == 0) {
+  } else if (sensor2Status == 1) {
     updateScore(300);
-  } else if (sensor3Status == 0) {
+  } else if (sensor3Status == 1) {
     updateScore(400);
-  } else if (sensor4Status == 0) {
+  } else if (sensor4Status == 1) {
     updateScore(500);
   } else if (isFlagged == true) {
     /*
