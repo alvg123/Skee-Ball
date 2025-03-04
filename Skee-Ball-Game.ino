@@ -98,7 +98,7 @@ void loop() {
   int button0Status = digitalRead(buttonTrigPin);
   
   //Updates the score based on the status of the sensor(s)
-  if (sensor0Status == 0) {
+  if (sensor0Status == 1) {
     updateScore(100);
   } else if (sensor1Status == 1) {
     updateScore(200);
